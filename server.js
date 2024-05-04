@@ -26,10 +26,6 @@ app.post('/tarefas', (req, res) => {
     });
 });
  
- 
- 
- 
- 
 // Rota para obter todas as tarefas
 app.get('/tarefas', (req, res) => {
     // Obter todas as tarefas do banco de dados
